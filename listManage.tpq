@@ -1,0 +1,18 @@
+1.By using a std::string. I can store single characters, single words, or multiple words with spaces.
+
+2. By checking if the first and last character are '"' or '\''.
+And by using getline(cin, input) to read the entire line, including spaces.
+
+3. I can remove quotes by taking a substring that starts after the first character and ends before the last character:
+  example: string name = input.substr(1, input.size() - 2);
+
+4.I inserted each number into a sorted vector at the correct position so that the vector remains sorted and
+compared the new number with existing numbers and insert it before the first larger number.
+
+5. Before inserting, I checked if the number already exists in the vector.
+and only insert if it is not already present.
+
+6. We can keep track of the number of characters printed so far. 
+Before adding each problem number with its separators, we check if adding it would exceed about 70 characters. 
+If it would, we print a newline and continue printing on the next line, resetting the character count.
+
